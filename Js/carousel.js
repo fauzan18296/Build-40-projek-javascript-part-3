@@ -41,7 +41,7 @@ showData();
 })
 
 const showData = () => {
-  const data = reviews[index];
+  let data = reviews[index];
   img.src = data.image;
   author.textContent = data.name;
   job.textContent = data.job;
