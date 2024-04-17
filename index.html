@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Review Carousel</title>
+  <link rel="stylesheet" type="text/css" href="./Css/carousel.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <main>
+    <section class="container d-flex justify-content-center align-items-center">
+      <div class="title pt-5">
+        <h2>Our Reviews</h2>
+        <div class="underline"></div>
+      </div>
+      <article class="review">
+        <div class="img-container d-flex justify-content-center align-items-center pt-3">
+          <img src="./Img/data1.jpg" width="200" id="img-profile" alt="">
+        </div>
+        <h4 id="author" class="d-flex justify-content-center align-items-center fs-3 pt-1">Claire Redfield</h4>
+        <p id="job" class="d-flex justify-content-center align-items-center fs-4 fw-semibold">Front-end developer</p>
+        <p id="info" class=" d-flex text-center fs-5 text-dark" >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eveniet assumenda, corrupti delectus maxime voluptatibus modi voluptates nihil tenetur itaque.
+        </p>
+        <!-- btn prev next -->
+        <div class="btn-container d-flex justify-content-center align-items-center gap-1 fw-bold">
+          <button class="prev-btn fs-1"><i class="bi bi-chevron-compact-left"></i></button>
+          <button class="next-btn fs-1"><i class="bi bi-chevron-compact-right"></i></button>
+        </div>
+        <!-- random btn -->
+        <button class="random-btn d-flex mx-auto p-2 mt-3 fs-5 rounded">Random Profile!</button>
+      </article>
+    </section>
+  </main>
+
+  <script src="./Js/carousel.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
