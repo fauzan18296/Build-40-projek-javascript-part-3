@@ -1,24 +1,24 @@
 const reviews = [
   {
-    image: "../Img/data1.jpg",
+    image: "Img/data1.jpg",
     name: "Betty Page",
     job: "Front-end developer",
     quotes: "With software there are only two possibilites: either the users control the programme or the programme controls the users. If the programme controls the users, and the developer controls the programme, then the programme is an instrument of unjust power."
   },
   {
-    image: "../Img/data2.jpg",
+    image: "Img/data2.jpg",
     name: "Dora Becker",
     job: "Full-stack developer",
     quotes:"You are a computer. If you become front-end you'll count the likes on social media. If you become back-end you'll be breathing deep on a mountain. Listen! one life man. Become a Full-stack."
   },
    {
-   image: "../Img/data3.jpg",
+   image: "Img/data3.jpg",
    name: "Ronald Page",
    job: "Back-end developer",
    quotes: "A good standalone plugin can also make you a fair amount of money. Many developers make a decent living by simply maintaining and updating one or two crucial plugins that are far better than anything available for free."
   }, 
   {
-    image: "../Img/data4.jpg",
+    image: "Img/data4.jpg",
     name: "Dennis Jensen",
     job: "Game developer",
     quotes: "Gamers can feel when developers are passionate about their games. They can smell it like a dog smells fear. Don't be afraid to hold onto your unique vision: just be aware that it may not turn out exactly how you envisioned."
