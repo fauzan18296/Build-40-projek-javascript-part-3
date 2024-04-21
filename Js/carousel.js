@@ -38,15 +38,13 @@ let index = 0;
 
 document.addEventListener("DOMContentLoaded", () => {
 showData();
-})
-
-const showData = () => {
+},showData = () => {
   let data = reviews[index];
   img.src = data.image;
   author.textContent = data.name;
   job.textContent = data.job;
   info.textContent = data.quotes;
-};
+});
 
 nextBtn.addEventListener("click", () => {
   index++;
